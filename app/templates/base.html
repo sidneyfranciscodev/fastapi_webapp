@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        {% block nav %}{% endblock %}
+        {% block body %}{% endblock %}
+        {% block footer %}{% endblock %}
+
+        {# Development Scripts #}
+        <script type="module" src="http://localhost:5173/stimulus/main.js"></script>
+        
+        {# Production Scripts 
+        <script type="module" src="/static/dist/main.js"></script> #}
+    </body>
+</html>

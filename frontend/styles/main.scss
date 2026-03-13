@@ -1,0 +1,11 @@
+@use 'base/globals';
+
+#home {
+    height: 100dvh;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        color: blue;
+    }
+}
