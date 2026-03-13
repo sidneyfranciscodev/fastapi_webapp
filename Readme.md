@@ -7,7 +7,7 @@ Starter template for building server-rendered web applications with:
 - Vite for asset bundling
 - Stimulus for frontend interactivity
 - SCSS styling
-- Dockerfile 
+- Docker container
 
 This repository is intended to serve as a reusable base for future projects.
 
@@ -45,9 +45,10 @@ frontend/
     - main.js
 - styles/
 
+Dockerfile
 package.json
-vite.config.js
 requirements.txt
+vite.config.js
 
 ---
 
