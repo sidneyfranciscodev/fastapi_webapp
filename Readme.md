@@ -119,10 +119,11 @@ app/static/dist
 
 ---
 
-## Create a Docker Container
+## Build a Docker Image and Run the Container
 
-1. Run docker build -t 'image-name' .
-2. Run docker run 'image-name'
+1. change to produciton scripts in base.html template
+2. Run docker build -t 'image-name' .
+3. Run docker run -p 8080:8080 'image-name'
 
 ---
 
